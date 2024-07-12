@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Timer & Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="status-circle" id="status-circle"></div>
+        <div class="time-display">
+            <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="centiseconds" class="small">00</span>
+        </div>
+        <div class="buttons">
+            <button class="start-btn" onclick="startTimer()">START</button>
+            <button class="pause-btn" onclick="pauseResume()">PAUSE</button>
+            <button class="lap-btn" onclick="recordLap()">LAP</button>
+            <button class="reset-btn" onclick="reset()">RESET</button>
+        </div>
+        <div class="laps">
+            <h3>Time Laps</h3>
+            <ul id="lap-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
