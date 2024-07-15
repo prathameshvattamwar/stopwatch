@@ -104,7 +104,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     width: fit-content;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 @media (max-width: 540px) {
